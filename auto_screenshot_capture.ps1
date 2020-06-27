@@ -22,6 +22,9 @@ if (-not(Test-Path -Path $savepath))
 #initialize screencount capture counter
 $i=0
 
+#load assembly
+Add-type -AssemblyName System.Drawing
+
 #loops infinitely, manually break to halt script
 while(1)
 {
